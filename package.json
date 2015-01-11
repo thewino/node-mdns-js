@@ -14,7 +14,7 @@
   "main": "index.js",
   "dependencies": {
     "debug": "~0.8.1",
-    "mdns-js-packet": "0.1.x"
+    "mdns-js-packet": "guerrerocarlos/node-mdns-js-packet"
   },
   "devDependencies": {
     "code": "^1.2.1",
