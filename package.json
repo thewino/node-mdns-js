@@ -1,6 +1,6 @@
 {
   "name": "mdns-js",
-  "version": "0.2.5",
+  "version": "0.3.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/kmpm/node-mdns-js.git"
@@ -11,17 +11,21 @@
     "dns-sd",
     "zeroconf"
   ],
+  "engines": {
+    "node": "^0.10.3 || ^0.12.0"
+  },
   "main": "index.js",
   "dependencies": {
-    "debug": "~0.8.1",
     "mdns-js-packet": "guerrerocarlos/node-mdns-js-packet"
+    "debug": "^2.1.1",
+    "semver": "^4.3.1"
   },
   "devDependencies": {
-    "code": "^1.2.1",
-    "joi": "^4.8.1",
-    "jscs": "^1.6.2",
-    "jshint": "*",
-    "lab": "^5.0.2"
+    "code": "^1.3.0",
+    "joi": "^5.1.0",
+    "jscs": "^1.11.1",
+    "jshint": "^2.6.0",
+    "lab": "^5.2.1"
   },
   "scripts": {
     "test": "lab --flat --coverage",
